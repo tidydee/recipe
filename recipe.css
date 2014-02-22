@@ -1,0 +1,150 @@
+html {background-image: URL('images/pic04.jpg')}
+
+  #wrapper { width: 900px;
+             height: 100%;
+             margin: auto;
+             margin-top: -10px;
+             background-color: white;
+             box-shadow: 5px 5px 5px #3b3b3b;
+             padding: 10px 5px; 
+             background-image: url('images/pic05.jpg');
+           }
+  
+  .recipe-card { font-family: Helvetica, sans-serif;
+                 font-size: 2em ;
+                 float: right;
+                 padding-right: 15px;
+                 margin-top: 15px;
+                 color: rgba(255,255,255,0.9);
+               }
+         
+  .recipe-image { width: 250px;
+                  height: 187px;
+                  background-color: rgba(255,255,255,0.75)white;
+                  margin: auto;
+                  padding: 10px 5px 5px 5px ;
+                  display: block;
+                  border-radius: 20px;
+                  box-shadow: 5px 5px 5px #3b3b3b;
+                  border: 1px solid red;
+                }       
+        
+  #image-wrapper { width: 275px;
+                 /*background-color: yellow;*/
+                   float: right; 
+                   padding-right: 25px;
+                   margin-top: 25px;
+                 }
+         
+  .image-inner-wrap { width: 95%;
+                      margin: auto;
+                    /*background-color: red;*/
+                    }      
+
+  .image-inner-wrap h5 { margin-top: 5px;
+                         margin-bottom: 5px;
+                         text-align: center ;  
+                       }         
+
+     header { background-color: red;
+              height: initial;
+              width: 700px;
+              margin-left: -5px
+
+            }
+
+   p { font-family: Helvetica, sans-serif;
+        margin-top: 10px;
+        padding-right: 325px; 
+        text-align: justify;
+        padding-left: 25px;
+
+     }
+
+   .intro p { font-family: cursive;
+
+           }  
+
+   li { font-family: Helvetica, sans-serif;
+        font-size: .85em;
+        width: 500px ;
+      }
+   
+   h3 { font-family: Helvetica, sans-serif;
+         margin-bottom: 10px; 
+      }
+article { padding-left: 25px;}
+
+ul {margin-top: 10px;}
+
+h1 { padding-left: 15px;
+  display: inline;
+  color: rgba(255,255,255,0.9);
+  font-family: Helvetica, sans-serif;
+
+   }
+
+h2 { padding-left: 15px;
+  display: inline;
+  font-family: cursive;
+  color: rgba(255,255,255,0.75);
+  display: inline;
+  padding-left: 50px;
+
+   }
+
+   h5{ font-family: cursive;}
+
+header {height: 75px;
+display: flex;
+align-items: center;}
+
+img {   width: 250px;
+              height: 187px;
+              
+             
+              -webkit-transition: all 1s ease;
+                 -moz-transition: all 1s ease;
+                   -o-transition: all 1s ease;
+                  -ms-transition: all 1s ease;
+                      transition: all 1s ease;
+          }
+ 
+img:hover {
+  width: 150%;
+  height: 150%;
+}                     
+
+hr { margin: 40px 25px 25px;
+  border: dotted 1px;}
+         
+         
+footer {text-align: center;
+       
+        text-transform: uppercase;
+
+}
+
+footer a {text-decoration: none;
+          color: red;
+
+}
+
+footer a:hover{ color: white;}
+
+h6 {
+  font-family: helvetica, sans-serif;
+  color:green ;
+}
+
+
+.green-cell{
+        background: none;
+        color: brown;
+        text-decoration: line-through;
+}
+.yellow-cell{
+        background: yellow;
+}
+
+
